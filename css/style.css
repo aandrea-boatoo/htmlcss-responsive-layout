@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+:root {
+    --color-white: #ffffff;
+    --color-bg-color: #d9d9d9;
+    --color-primary: #7c69a4;
+    --color-dark-text: #4e3969;
+    --color-black: #282529;
+    --color-contrast: #fa961a;
+    --color-icon-red: #ea5556;
+    --color-icon-blue: #2871f0;
+}
+
+
+/* utilities */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.around{
+    justify-content: space-around;
+}
+
+/* background */
+.primary-bg{
+    background-color: var(--color-primary);
+}
+
+.white-bg{
+    background-color: var(--color-white);
+}
+
+.dark-bg{
+    background-color: var(--color-bg-color);
+}
+
+
+/* header */
+
+header h1{
+    font-family: "Nerko One", cursive;
+    font-size: 3em;
+    color: var(--color-contrast);
+    text-align: center;
+}
+
+/* main */
+/* Titolo */
+.container{
+    margin: 20px;
+    max-width: 440px;
+}
+
+#intro p{
+    color: grey;
+    text-transform: uppercase;
+}
+.img{
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+/* riassunto ricetta */
+.sum{
+    box-shadow: 1px 2px lightgrey;
+    background-color: var(--color-white);
+}
+
+ul{
+    list-style: none;
+}
+
+.bold{
+    font-weight: bold;
+}
+/* social */
+.button-cont{
+    margin: 15px;
+}
+
+.button{
+    width: 12%;
+    height: 30px;
+    border-radius: 15px;
+    box-shadow: 1px 2px grey;
+}
+
+.button a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+.fa-facebook{
+    color: var(--color-icon-blue);
+}
+
+.fa-twitter{
+    color: var(--color-icon-blue);
+}
+
+.fa-instagram{
+    color: var(--color-icon-red);
+}
+
+.fa-pinterest{
+    color: var(--color-icon-red);
+}
+
+.fa-youtube{
+    color: var(--color-icon-red);
+}
+
+/* ADS */
+
+#ads {
+    display: none;
+}
+
+/* preparazione */
+h2{
+    text-transform: uppercase;
+}
+
+hr{
+    background-color: var(--color-contrast);
+    width: 30%;
+    height: 3px;
+    margin: 15px;
+}
+
+#preparation .img{
+    margin: 0 auto;
+    width: 75%;
+}
+
+#preparation p{
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+/* footer */
+footer{
+    min-height: 70px;
+}
+
+
+
+
+@media screen and (min-width: 576px) {
+    
+}
+
+@media screen and (min-width: 768px) {
+    
+}
+
+@media screen and (min-width: 992px) {
+    
+}
