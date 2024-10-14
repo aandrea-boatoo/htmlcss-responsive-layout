@@ -145,27 +145,22 @@ ul{
     width: 100%;
 }
 /* preparazione */
-#preparation h2{
+#presentation h2{
     text-transform: uppercase;
 }
 
 hr{
     background-color: var(--color-contrast);
-    width: 30%;
+    width: 10%;
     height: 3px;
-    margin: 15px;
+    margin: 15px 0;
 }
 
-#preparation .img{
+#presentation .img{
     margin: 0 auto;
     width: 75%;
 }
 
-/* #preparation p{
-    margin: 0 auto;
-    width: 90%;
-
-} */
 
 /* footer */
 footer{
@@ -193,21 +188,26 @@ figure{
 
 
 
-.only-tablet{
-    display: none;
-}
-.only-desktop{
+.only-tablet, .only-tablet-inline, .only-desktop, .only-desktop-inline{
     display: none;
 }
 
 
 @media screen and (min-width: 576px) {
+    #presentation .img{
+        float: left;
+        width: 40%;
+        padding: 10px;
+    }
     
 }
 
 @media screen and (min-width: 768px) {
     .only-tablet{
-        display: inline-block;
+        display: block;
+    }
+    .only-tablet-inline{
+        display: inline;
     }
 
     h1{
@@ -227,7 +227,8 @@ figure{
     #intro li{
         width: 30%;
     }
-    #preparation .img{
+
+    #presentation .img{
         float: left;
         width: 40%;
         padding: 10px;
@@ -237,9 +238,11 @@ figure{
 
 @media screen and (min-width: 992px) {
     .only-desktop{
-        display: inline-block;
+        display: block;
     }
-
+    .only-desktop-inline{
+        display: inline;
+    }
     .container{
         margin: 40px auto 0;
         max-width: 952px;
@@ -278,6 +281,7 @@ figure{
     h5{
         text-align: left;
     }
+    vw
 
     
 }
