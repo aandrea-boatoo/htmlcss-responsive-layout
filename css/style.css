@@ -144,21 +144,26 @@ ul{
 .container > img{
     width: 100%;
 }
-/* preparazione */
+/* presentazione */
 #presentation h2{
     text-transform: uppercase;
+    padding: 10px;
 }
 
 hr{
     background-color: var(--color-contrast);
-    width: 10%;
+    width: 15%;
     height: 3px;
-    margin: 15px 0;
+    margin: 15px 10px;
 }
 
 #presentation .img{
     margin: 0 auto;
     width: 75%;
+}
+
+#presentation p{
+    padding: 10px;
 }
 
 
@@ -281,7 +286,6 @@ figure{
     h5{
         text-align: left;
     }
-    vw
 
     
 }
